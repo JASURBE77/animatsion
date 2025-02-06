@@ -1,0 +1,152 @@
+.qizil{
+    width: 250px;
+    height: 250px;
+    border: 2px solid gray;
+    position: absolute;
+    animation-name: liziq;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes liziq {
+    0%{
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+    25%{
+        left: 1300px;
+        top: 0;
+        background-color: red;
+    }
+    50%{
+        top: 70%;
+        right: 0;
+        background-color: red;
+    }
+    75%{
+        top: 70%;
+        right: 1300px;
+        background-color: red;
+    }
+    100%{
+        top: 0;
+        background-color: red;
+    }
+}
+.yashil{
+    width: 250px;
+    height: 250px;
+    border: 2px solid gray;
+    position: absolute;
+    animation-name: lishay;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;   
+}
+
+@keyframes lishay {
+    0%{
+        top: 0;
+        right: 0;
+        background-color: green;
+    }
+    25%{
+        right: 0;
+        top: 70%;
+        background-color: green;
+    }
+    50%{   
+        right: 1300px;
+        top: 70%;
+        background-color: green;
+    }
+    75%{
+        right: 1300px;
+        top: 0;
+        background-color: green;
+    }
+    100%{
+        top: 0;
+        right: 0;
+        background-color: green;
+    }
+
+}
+.kok{
+    width: 250px;
+    height: 250px;
+    border: 2px solid gray;
+    position: absolute;
+    animation-name: okk;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes okk {
+    0%{
+        top: 70%;
+        right: 0;
+        background-color: blue;
+    }
+    25%{
+        top: 70%;
+        right: 1300px;
+        background-color: blue;
+    }
+    50%{
+        top: 0;
+        right: 1300px;
+        background-color: blue;
+    }
+    75%{
+        top: 0;
+        right: 0;
+        background-color: blue;
+    }
+    100%{
+        top: 70%;
+        right: 0;
+        background-color: blue;
+    }
+}
+.sariq{
+    width: 250px;
+    height: 250px;
+    border: 2px solid gray;
+    position: absolute;
+    animation-name: qiras;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes qiras {
+    0%{
+        top: 70%;
+        left: 0;
+        background-color: yellow;
+    }
+    25%{
+        top: 0;
+        left: 0;
+        background-color: yellow;
+    }
+    50%{
+        top: 0;
+        left: 1300px;
+        background-color: yellow;
+    }
+    75%{
+        top: 70%;
+        right: 0;
+        background-color: yellow;
+    }
+    100%{
+        top: 70%;
+        right: 1300px;
+        background-color: yellow;
+    }
+}
